@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+.header_nav {
+    background-color: #494949;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav2 {
+    background-color: #5f2020;
+}
+
+.header_nav .lo_go {
+    margin-left: 250px;
+    border: 5px red solid;
+    border-radius: 10px;
+}
+
+.list_header li {
+    color: white;
+    padding: 15px 22px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.list_header li a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: large;
+    float: left;
+}
+
+.list_header li a:hover {
+    background-color: #fb4242;
+    border-radius: 15px;
+
+}
+
+.list_header li.active a {
+    background-color: #fb4242;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+}
+
+.searchs {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: large;
+    margin-top: 22px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px;
+    padding-left: 16px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-top: -55%;
+}
+
+.sign_in_up {
+    margin-right: 200px;
+    float: right;
+}
+
+.sign_in_up li {
+    display: inline-block;
+    color: white;
+}
+
+.sign_in_up li a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+.sign_in_btn {
+    background-color: #5f2020;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.sign_up_btn {
+    background-color: #5f2020;
+    font-size: 20px;
+    line-height: 10px;
+    border-radius: 20px;
+}
+
+.in {
+    padding: 15px;
+}
+
+.up {
+    padding: 15px;
+}
+
+.sign_in_btn:hover {
+    background-color: #fb4242;
+}
+
+.sign_up_btn:hover {
+    background-color: #fb4242;
+}

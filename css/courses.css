@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* Quickie Text Color. */
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #E1E1E1;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #005EF9;
+}
+
+.text-deco {
+    text-decoration: none;
+}
+
+.text-deco a {
+    text-decoration: none;
+}
+
+
+/* Quickie Text Color ends here. */
+
+
+/* Quickie Background color. */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: #005EF9;
+}
+
+.bg-grey {
+    background-color: #E1E1E1;
+}
+
+
+/* Quickie Background color ends here. */
+
+
+/* Quickie Height. */
+
+.height-50 {
+    height: 50px;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+
+/* Quickie Height ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Top Navbar starts here. */
+
+.top_nav h3 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Top Navbar ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Invisible Navbar starts here. */
+
+.inv_nav {
+    height: 100px;
+}
+
+
+/* Invisible Navbar starts here. */
+
+
+/* -------------------------------------------------------- */
+
+.course_brand {
+    cursor: context-menu;
+}
+
+.library_brand {
+    color: #000;
+}
+
+.library_brand:hover {
+    color: #005EF9;
+}
+
+.sub_list {
+    /* display: none; */
+    font-weight: 500;
+    color: black;
+}
+
+
+/* .navbar-nav .course_list {
+    display: none;
+    border: 2px solid #005EF9;
+    border-radius: 20px;
+} */
+
+
+/* Initially hide the course_list */
+
+.course_list {
+    display: none;
+    border: 2px solid #005EF9;
+    border-radius: 20px;
+}
+
+.course_list a {
+    color: black;
+    white-space: normal;
+    font-weight: 400;
+}
+
+
+/* Show the course_list when sub_list is being hovered on */
+
+.sub_list:hover+.course_list {
+    display: block;
+}

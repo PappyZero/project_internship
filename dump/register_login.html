@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css File -->
+    <link rel="stylesheet" type="text/css" href="./register_login.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper login">
+            <form action="../login_connect.php" method="post">
+                <h2>LOGIN</h2>
+                <div class="input-group">
+                    <input type="email" name="login_email" required>
+                    <label for="login_email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="login_password" required>
+                    <label for="login_email">Password</label>
+                </div>
+
+                <div class="remember">
+                    <label for="remember_me"><input type="checkbox" name="remember_me">Remember me</label>
+                </div>
+                <button type="submit">LOGIN</button>
+
+                <div class="social">
+                    <p>Or Login with</p>
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-fade"></i></a>
+                        <a href="#"><i class="fa-brands fa-google fa-fade"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in fa-fade"></i></a>
+                    </div>
+                </div>
+
+                <div class="register_link">
+                    <p>Don't have an account? <a href="#" class="registerBtn_link">Register</a></p>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="form-wrapper register">
+            <form action="../register_connect.php" method="post">
+                <h2>REGISTER</h2>
+                <div class="input-group">
+                    <input type="text" name="lastName" required>
+                    <label for="lastName">Last Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" name="firstName" required>
+                    <label for="firstName">First Name</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" name="confirm_password" required>
+                    <label for="confirm_password">Confirm Password</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="number" name="num" required>
+                    <label for="num">Number</label>
+                </div>
+
+                <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Rather not say</option>
+                </select><br>
+
+                <div class="remember">
+                    <label for="remember_me"><input type="checkbox" name="remember_me">I agree to the Terms & Conditions
+                    </label>
+                </div>
+                <button type="submit">REGISTER</button>
+                <div class="social">
+                    <p>Or Register with</p>
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-fade"></i></a>
+                        <a href="#"><i class="fa-brands fa-google fa-fade"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in fa-fade"></i></a>
+                    </div>
+                </div>
+
+                <div class="register_link">
+                    <p>Already have an account? <a href="#" class="loginBtn_link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./register_login.js"></script>
+</body>
+
+</html>

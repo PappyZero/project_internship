@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+body {
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* Quickie Text Color. */
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #005ef9;
+}
+
+.text-deco {
+    text-decoration: none;
+}
+
+.text-deco a {
+    text-decoration: none;
+}
+
+
+/* Quickie Text Color ends here. */
+
+
+/* Quickie Background color. */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: #005ef9;
+}
+
+.bg-grey {
+    background-color: #e1e1e1;
+}
+
+
+/* Quickie Background color ends here. */
+
+
+/* Quickie Height. */
+
+.height-50 {
+    height: 50px;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+
+/* Quickie Height ends here. */
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* HEADER Page style starts here. */
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* Top Navbar starts here. */
+
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.nav_brand_text {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+    .nav_brand_text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav_brand_text {
+        display: none;
+    }
+}
+
+
+/* Top Navbar ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* HEADER Page style ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* INDEX Page style starts here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* --------------------------------------------------- */
+
+
+/* Learning Management  starts here. */
+
+.learning_display h4 {
+    color: #0043b1;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.learning_display h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.learning_display h1 span {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+
+/* Learning Management Mobile View starts here. */
+
+.learning_display_mobile {
+    display: none;
+}
+
+.video_display_mobile {
+    display: none;
+}
+
+.learning_display_mobile h4 {
+    margin-top: 50px;
+    color: #0043b1;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.learning_display_mobile h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.learning_display_mobile h1 span {
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .learning_display {
+        display: none;
+    }
+    .video_display {
+        display: none;
+    }
+    .learning_display_mobile h4 {
+        display: none;
+    }
+    .learning_display_mobile {
+        display: inline;
+        font-size: medium;
+    }
+    .video_display_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .learning_display_mobile h4 {
+        display: none;
+    }
+    .learning_display_mobile {
+        display: inline;
+        text-align: center;
+        font-size: medium;
+    }
+    .video_display_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* Learning Management Mobile View ends here. */
+
+
+/* Learning Management ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* Trusted By starts here. */
+
+.Trust_Us_Text {
+    margin-top: 25px;
+    text-align: center;
+    color: #0051d7;
+    font-weight: bold;
+}
+
+.trust_row {
+    margin-top: 50px;
+}
+
+.trust_row_1 {
+    margin-top: 70px;
+    margin-left: -25px;
+}
+
+.trust_row_2 {
+    margin-top: 120px;
+    margin-left: -25px;
+}
+
+
+/* Trusted By ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* Journey starts here. */
+
+.journey h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.journey h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.journey img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+
+/* Journey ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* Best Computer Programming Certificates starts here. */
+
+._gradient p {
+    font-size: x-large;
+}
+
+._gradient span {
+    font-size: large;
+    font-weight: 400;
+}
+
+._gradient li {
+    display: inline-block;
+    font-weight: bold;
+    /* font-size: 20px; */
+    color: #0043b1;
+}
+
+._gradient li span {
+    font-weight: bolder;
+    /* font-size: 15px; */
+    color: black;
+}
+
+._gradient_mobile {
+    display: none;
+}
+
+._image {
+    height: auto;
+}
+
+
+/*  Mobile view Best Computer Programming Certificates starts here. */
+
+@media screen and (max-width: 1740px) {
+    ._gradient {
+        display: none;
+    }
+    ._image {
+        width: 100%;
+    }
+    ._gradient_mobile {
+        display: inline-block;
+    }
+    ._gradient_mobile p {
+        font-size: 25px;
+    }
+    ._gradient_mobile span {
+        font-size: 20px;
+    }
+    ._gradient_mobile li {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 15px;
+        color: #0044b2;
+    }
+    ._gradient_mobile li span {
+        font-weight: bolder;
+        font-size: 15px;
+        color: black;
+    }
+}
+
+
+/*  Mobile view Best Computer Programming Certificates ends here. */
+
+
+/* Best Computer Programming Certificates ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* Top Programming Courses starts here. */
+
+.course_card_btn {
+    color: white;
+    background-color: #3b82f6;
+}
+
+.course_card_btn:hover {
+    color: white;
+    background-color: #0043b1;
+}
+
+@media screen and (max-width: 768px) {
+    .course_card_body_2 {
+        margin-top: 20px;
+    }
+}
+
+
+/* Top Programming Courses ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* Prerequisites starts here. */
+
+.prerequisites_img {
+    width: 100%;
+}
+
+.prerequisites_text {
+    width: 100%;
+}
+
+.prerequisites_text h2 {
+    font-weight: 600;
+}
+
+.mobile_prerequisites_text {
+    display: none;
+}
+
+
+/* Prerequisites ends here. */
+
+
+/* --------------------------------------------------- */
+
+
+/* --------------------------------------------------- */
+
+
+/* FAQ starts here. */
+
+.above-line,
+.below-line {
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 10px 0;
+}
+
+.f-a-q {
+    margin-top: 60px;
+}
+
+.f-a-q h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #005ef9;
+}
+
+.faq_row {
+    margin-top: 40px;
+}
+
+.faq_row_ques {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.faq_row_ans {
+    background-color: #e1e1e1;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* INDEX Page style starts here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

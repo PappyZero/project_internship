@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+/* Quickie Text Color. */
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: #E1E1E1;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #005EF9;
+}
+
+.text-deco {
+    text-decoration: none;
+}
+
+.text-deco a {
+    text-decoration: none;
+}
+
+
+/* Quickie Text Color ends here. */
+
+
+/* Quickie Background color. */
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: #005EF9;
+}
+
+.bg-grey {
+    background-color: #E1E1E1;
+}
+
+
+/* Quickie Background color ends here. */
+
+
+/* Quickie Height. */
+
+.height-50 {
+    height: 50px;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+
+/* Quickie Height ends here. */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* HEADER Page style starts here. */
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Top Navbar starts here. */
+
+.top_nav h3 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* Top Navbar ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Invisible Navbar starts here. */
+
+.inv_nav {
+    height: 100px;
+}
+
+
+/* Invisible Navbar starts here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Middle Navbar starts here. */
+
+
+/* Middle nav items start here.  */
+
+.nav_items ul li a {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.nav_items ul li a:hover {
+    color: black;
+}
+
+.mid_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Middle nav items ends here.  */
+
+
+/* Dropdown text starts here. */
+
+.dropdown-menu {
+    margin: 0 10px;
+    border: #3B82F6 solid 2px;
+}
+
+#overview_dropdown li a {
+    color: black;
+}
+
+#resourse_dropdown li a {
+    color: black;
+}
+
+#livedemo_dropdown li a {
+    color: black;
+}
+
+
+/* Hover */
+
+#overview_dropdown li a:hover {
+    color: #3B82F6;
+}
+
+#resourse_dropdown li a:hover {
+    color: #3B82F6;
+}
+
+#livedemo_dropdown li a:hover {
+    color: #3B82F6;
+}
+
+
+/* Dropdown text ends here. */
+
+
+/* Middle Navbar ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Top Nav & Mid Nav Mobile View starts here */
+
+.mid_nav .mobile_nav_brand_text {
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .top_nav h3 {
+        display: none;
+    }
+    .mid_nav .mobile_nav_brand_text {
+        display: inline;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+
+/* Top Nav & Mid Nav Mobile View ends here */
+
+
+/* -------------------------------------------------------- */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* HEADER Page style ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* INDEX Page CSS starts here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Progress starts here. */
+
+.progress_text h1 {
+    color: #0043B1;
+    font-size: 4.5rem;
+}
+
+@media (min-width: 768px) {
+    .progress_text h1 {
+        font-size: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .progress_text h1 {
+        font-size: 16rem;
+    }
+}
+
+.progress_text span {
+    color: #000;
+    font-size: 50%;
+}
+
+
+/* Progress ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Rating starts here. */
+
+.rating .rating_txt {
+    font-size: 2rem;
+    color: #0051D7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rating .reviews_txt {
+    font-weight: 500;
+    font-size: 1.0625rem;
+}
+
+.rating .review_btn {
+    display: inline;
+    margin: 0.625rem;
+    text-decoration: none;
+}
+
+.rating .rating_read_more p {
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#more {
+    display: none;
+}
+
+
+/* Mobile View for Rating starts here. */
+
+@media (min-width: 768px) {
+    .rating .rating_txt {
+        font-size: 2.5rem;
+    }
+    .rating .reviews_txt {
+        font-size: 1.4375rem;
+    }
+    .rating .review_btn {
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .rating .rating_txt {
+        font-size: 3rem;
+    }
+    .rating .reviews_txt {
+        font-size: 2rem;
+    }
+    .rating .review_btn {
+        margin: 2rem;
+        display: inline;
+        margin-inline-start: 1px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .rating .review_btn {
+        display: inline;
+        margin-inline-start: 1px;
+        margin-top: 15px;
+    }
+    .rating .rating_txt {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .rating .review_btn {
+        display: inline;
+        margin-inline-start: 1px;
+        margin-top: 15px;
+    }
+    .rating .rating_txt {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .rating .review_btn {
+        display: inline;
+        margin-inline-start: 1px;
+    }
+    .rating .rating_txt {
+        font-size: 2rem;
+    }
+    .rating .rating_read_more p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .rating .review_btn {
+        display: block;
+        margin-inline-start: 1px;
+    }
+    .rating .rating_read_more {
+        margin-top: 10px;
+    }
+}
+
+
+/* Mobile View for Rating starts here. */
+
+
+/* Rating ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Learning Management */
+
+.learning_display h4 {
+    color: #0043B1;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.learning_display h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.learning_display h1 span {
+    color: #3B82F6;
+    font-weight: bold;
+}
+
+
+/* Learning Management Mobile View starts here */
+
+.learning_display_mobile {
+    display: none;
+}
+
+.video_display_mobile {
+    display: none;
+}
+
+.learning_display_mobile h4 {
+    margin-top: 50px;
+    color: #0043B1;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.learning_display_mobile h1 {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.learning_display_mobile h1 span {
+    color: #3B82F6;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+    .learning_display {
+        display: none;
+    }
+    .video_display {
+        display: none;
+    }
+    .learning_display_mobile h4 {
+        display: none;
+    }
+    .learning_display_mobile {
+        display: inline;
+        font-size: medium;
+    }
+    .video_display_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .learning_display_mobile h4 {
+        display: none;
+    }
+    .learning_display_mobile {
+        display: inline;
+        text-align: center;
+        font-size: medium;
+    }
+    .video_display_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* Learning Management Mobile View ends here */
+
+
+/* Learning Management ends here. */
+
+
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Trusted By starts here. */
+
+.Trust_Us_Text {
+    margin-top: 30px;
+    text-align: center;
+    color: #0051D7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trust_row {
+    margin-top: 50px;
+}
+
+.trust_row_1 {
+    margin-top: 70px;
+    margin-left: -25px;
+}
+
+.trust_row_2 {
+    margin-top: 120px;
+    margin-left: -25px;
+}
+
+
+/* Mobile View for Trusted By starts here. */
+
+.trust_row_mobile {
+    display: none;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .trust_row {
+        display: none;
+    }
+    .trust_row_mobile {
+        display: grid;
+    }
+}
+
+
+/* Mobile View for Trusted By starts here. */
+
+
+/* Trusted By ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Our Journey Path */
+
+.journey h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.journey h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.journey img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+
+/* Our Journey Path ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Free Online Programming Courses starts here. */
+
+.free_online_display {
+    margin-top: 10px;
+}
+
+.free_online_display figure video {
+    border: #3B82F6 2px solid;
+    border-radius: 50%;
+}
+
+.free_online_display_text {
+    background-color: #E1E1E1;
+    border: #3B82F6 1px solid;
+    border-radius: 20px;
+}
+
+.free_online_display h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.free_online_display p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.mobile_free_online_display {
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+    .mobile_free_online_img {
+        max-width: 100%;
+        height: auto;
+    }
+    .mobile_free_online_text {
+        width: 100%;
+        background-color: #E1E1E1;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+
+/* Free Online Programming Courses ends here. */
+
+
+/* iyyvtiu */
+
+@media screen and (max-width:1400px) {
+    .personalized_carousel .carousel-inner .carousel-item img {
+        width: 100%;
+    }
+}
+
+
+/* Best Computer Programming Certificates starts here. */
+
+._gradient p {
+    font-size: 30px;
+}
+
+._gradient span {
+    font-size: 30px;
+}
+
+._gradient li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0043B1;
+}
+
+._gradient li span {
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+
+._gradient_mobile {
+    display: none;
+}
+
+
+/*  */
+
+@media screen and (max-width:1740px) {
+    ._gradient {
+        display: none;
+    }
+    ._image {
+        width: 100%;
+    }
+    ._gradient_mobile {
+        display: inline-block;
+        overflow: scroll;
+    }
+    ._gradient_mobile p {
+        font-size: 30px;
+    }
+    ._gradient_mobile span {
+        font-size: 30px;
+    }
+    ._gradient_mobile li {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 20px;
+        color: #0043B1;
+    }
+    ._gradient_mobile li span {
+        font-weight: bolder;
+        font-size: 20px;
+        color: black;
+    }
+}
+
+
+/* Best Computer Programming Certificates ends here. */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Frequently asked questions starts here.  */
+
+
+/* FAQ style for the lines. */
+
+.above-line,
+.below-line {
+    border: 0;
+    /* Remove the default border */
+    border-top: 2px solid #000;
+    /* Set the border color and thickness for the lines */
+    margin: 10px 0;
+    /* Adjust margin as needed to control the spacing */
+}
+
+
+/* Center the text and style it */
+
+.f-a-q {
+    margin-top: 60px;
+}
+
+.f-a-q h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #005EF9;
+}
+
+.faq_row {
+    margin-top: 40px;
+}
+
+.faq_row_ques {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.faq_row_ans {
+    background-color: #E1E1E1;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* Frequently asked questions starts here.  */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Index Page CSS ends here. */
+
+
+/* -------------------------------------------------------- */
