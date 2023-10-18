@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programming E-Learning Platform</title>
+</head>
+<body>
+    <button id="profile-button" onclick="loadProfile()">Profile</button>
+    <div id="profile-dashboard" style="display: none;">
+        <h1>User Profile</h1>
+        <p>Name: <span id="user-name"></span></p>
+        <p>Email: <span id="user-email"></span></p>
+        <!-- Add more user details as needed -->
+    </div>
+
+    <script>
+        function loadProfile() {
+            // This function will use JavaScript to fetch user data and display it on the page
+            // You can use AJAX to send a request to the server to retrieve user information
+            // For simplicity, we'll simulate user data retrieval here
+            var userData = {
+                name: "John Doe",
+                email: "john@example.com"
+            };
+
+            document.getElementById("user-name").textContent = userData.name;
+            document.getElementById("user-email").textContent = userData.email;
+            document.getElementById("profile-dashboard").style.display = "block";
+        }
+    </script>
+</body>
+</html>

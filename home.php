@@ -37,7 +37,7 @@ header("Pragma: no-cache");
 <body>
   <!-- Header File starts here. -->
   <?php
-  include("./header.php");
+  include_once("./header.php");
   ?>
   <!-- Header File ends here. -->
 
@@ -626,7 +626,7 @@ header("Pragma: no-cache");
 
   <!-- Footer File starts here. -->
   <?php
-    include("./footer.php");
+    include_once("./footer.php");
   ?>
   <!-- Footer File ends here. -->
 

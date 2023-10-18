@@ -314,7 +314,7 @@ header("Pragma: no-cache");
                 </div>
             </div>
         </div>    
-        <!-- Course List starts here. -->
+        <!-- Course List ends here. -->
 
 
 
